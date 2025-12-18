@@ -40,7 +40,7 @@ public class Conditionals {
             } else if (temp < 40) {
                 System.out.println("It's cold"); 
             } else {
-                System.out.println("ERROR!!!!")
+                System.out.println("ERROR!!!!");
             }
 
 
@@ -89,9 +89,31 @@ public class Conditionals {
 
             //challenge 2
             System.out.println("Enter a number");
-            String Num = input.nextLine();
+            int Num = int.parseDouble(input.nextLine());
+            if (Num % 2 == 0) {
+            
+            System.out.println(" Even");
+            } else {
+            System.out.println(" Odd");
 
-            if (Num % 2.equals(0));
+            }
+
+
+            // challenge 3
+
+            System.out.println("Enter an integer grade");
+            int grade = Integer.parseInt(input.nextLine());
+            if (grade >= 90) {
+                System.out.println("A");
+            } else if (grade >= 80) {
+                System.out.println("B");
+            } else if (grade >= 70) {
+                System.out.println("C");
+            } else if (grade >= 60) {
+                System.out.println("D");
+            } else {
+                System.out.println("F");
+
 
 
 
@@ -104,5 +126,5 @@ public class Conditionals {
             
 
             
-    }
-}
+        }
+
