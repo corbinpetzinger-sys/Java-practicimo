@@ -65,7 +65,7 @@ public class Conditionals {
              day.equals("Tuesday") ||
               day.equals("Wednesday")||
                day.equals("Thursday")||
-                day.equals("Friday") {
+                day.equals("Friday")) {
 
                 System.out.println("it's a weekday");
             } else {
