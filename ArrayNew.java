@@ -41,7 +41,17 @@ for (String name : names) {
 }
 
 
+int[]  NUmber = new int[20];
+for (int i=0; i< NUmber.length; i++) {
+    NUmber[i] = 4 * i + i;
+    System.out.println("Number at index " + i + " is: " + NUmber[i]);
+}
 
+
+    int Median = 0;
+    Median = NUmber.length / 2;
+
+    System.out.println(NUmber[Median]);
 
 
     }
